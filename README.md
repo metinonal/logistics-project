@@ -1,4 +1,23 @@
 
+Bu rehber, server.js dosyasını çalıştırmak ve uygulamayı başlatmak için gerekli adımları içermektedir.
+
+Bu repoyu klonlayın veya ZIP olarak indirin.
+
+git clone https://github.com/metinonal/logistics-project.git
+
+Gerekli paketleri yükleyin.
+
+npm install
+
+server.js dosyasını çalıştırın.
+
+nodemon server.js
+
+Tarayıcınızda şu adrese gidin:
+
+http://localhost:3000
+
+Çalışan uygulamayı durdurmak için terminalde Ctrl + C tuşlarına basın ve işlemi sonlandırın.
 
 Google Haritalar ve Rotalama Uygulaması
 
