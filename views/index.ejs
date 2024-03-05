@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Araç Takip Yazılımı</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Araçlar</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="list-group">
+          <% araclar.forEach((arac) => { %>
+            <li class="list-group-item"><a href="#" onclick="showRoute('<%= arac.plaka %>')"><%= arac.plaka %> - <%= arac.rota %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const araclar = [
+      { plaka: '34AAA001', rota: 'İstanbul - Münih' },
+      { plaka: '34AAA002', rota: 'İstanbul - Trieste' },
+      { plaka: '34AAA003', rota: 'İzmir - Bükreş' },
+      { plaka: '34AAA004', rota: 'Mersin - İstanbul' },
+      { plaka: '34AAA005', rota: 'Ankara - Paris' }
+    ];
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXqDCNwoXjokQ1x5QzEXulsBKhEMBsAJY&callback=initMap" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
