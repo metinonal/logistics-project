@@ -1,5 +1,5 @@
 
-#Bu rehber, server.js dosyasını çalıştırmak ve uygulamayı başlatmak için gerekli adımları içermektedir.
+# Bu rehber, server.js dosyasını çalıştırmak ve uygulamayı başlatmak için gerekli adımları içermektedir.
 
 Bu repoyu klonlayın veya ZIP olarak indirin.
 
