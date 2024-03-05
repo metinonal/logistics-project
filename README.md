@@ -52,10 +52,12 @@ function initMap() {
 
 ### 3. Şu Anki Rota Bilgisini Tutacak Değişken: currentRoute
 
+```
 let currentRoute = null;
+```
 
 ### 4. Rota Gösterme Fonksiyonu: showRoute(plaka)
-
+```
 function showRoute(plaka) {
   if (currentRoute) {
     currentRoute.setMap(null); // Önceki rota varsa haritadan kaldır
@@ -129,7 +131,7 @@ function showRoute(plaka) {
     }
   });
 }
-
+```
 
 ## Sonuç:
 
