@@ -25,9 +25,11 @@ Google Haritalar ve Rotalama Uygulaması
 
 1. Harita ve Rota Yönlendirici Tanımlamaları
 
+```
 'let map;': Google Harita nesnesini tutacak değişken.
 'let directionsRenderer;': Yönleri haritada gösterecek olan nesne.
 'let infoWindow;': Bilgi penceresi nesnesi.
+```
 
 2. Harita Başlatma Fonksiyonu: initMap()
 
