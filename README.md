@@ -31,6 +31,7 @@ Google Haritalar ve Rotalama Uygulaması
 
 2. Harita Başlatma Fonksiyonu: initMap()
 
+```
 function initMap() {
   const mapOptions = {
     center: { lat: 41.0082, lng: 28.9784 }, // Harita başlangıç merkezi: İstanbul
@@ -40,6 +41,7 @@ function initMap() {
   directionsRenderer = new google.maps.DirectionsRenderer({ map: map }); // Yönleri gösterme ayarı
   infoWindow = new google.maps.InfoWindow(); // Bilgi penceresi oluşturma
 }
+```
 
 3. Şu Anki Rota Bilgisini Tutacak Değişken: currentRoute
 
