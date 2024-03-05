@@ -3,7 +3,9 @@ Bu rehber, server.js dosyasını çalıştırmak ve uygulamayı başlatmak için
 
 Bu repoyu klonlayın veya ZIP olarak indirin.
 
+```
 git clone https://github.com/metinonal/logistics-project.git
+```
 
 Gerekli paketleri yükleyin.
 
