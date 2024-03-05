@@ -9,11 +9,15 @@ git clone https://github.com/metinonal/logistics-project.git
 
 Gerekli paketleri yükleyin.
 
+```
 npm install
+```
 
 server.js dosyasını çalıştırın.
 
+```
 nodemon server.js
+```
 
 Tarayıcınızda şu adrese gidin:
 
