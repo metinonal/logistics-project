@@ -28,7 +28,7 @@ http://localhost:3000
 
 ## Google Haritalar ve Rotalama Uygulaması
 
-1. Harita ve Rota Yönlendirici Tanımlamaları
+### 1. Harita ve Rota Yönlendirici Tanımlamaları
 
 ```
 'let map;': Google Harita nesnesini tutacak değişken.
@@ -36,7 +36,7 @@ http://localhost:3000
 'let infoWindow;': Bilgi penceresi nesnesi.
 ```
 
-2. Harita Başlatma Fonksiyonu: initMap()
+### 2. Harita Başlatma Fonksiyonu: initMap()
 
 ```
 function initMap() {
@@ -50,11 +50,11 @@ function initMap() {
 }
 ```
 
-3. Şu Anki Rota Bilgisini Tutacak Değişken: currentRoute
+### 3. Şu Anki Rota Bilgisini Tutacak Değişken: currentRoute
 
 let currentRoute = null;
 
-4. Rota Gösterme Fonksiyonu: showRoute(plaka)
+### 4. Rota Gösterme Fonksiyonu: showRoute(plaka)
 
 function showRoute(plaka) {
   if (currentRoute) {
@@ -131,7 +131,7 @@ function showRoute(plaka) {
 }
 
 
-Sonuç:
+## Sonuç:
 
 Bu kod, belirli araç plakalarına göre farklı rotalar oluşturur.
 - initMap() haritayı oluşturur ve temel ayarları yapar.
