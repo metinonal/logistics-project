@@ -1,9 +1,9 @@
-const config = {
+const config = {// Veritabanı bağlantısı burada kurulur.
     db: {
-        host: "89.252.139.7",
-        user: "metinon1_admin",
-        password: "Metin3440,",
-        database: "metinon1_lojistik-projesi"
+        host: "localhost",
+        user: "admin",
+        password: "admin",
+        database: "proje"
     },
     
     PORT: 3000,
