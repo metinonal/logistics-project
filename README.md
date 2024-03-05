@@ -20,8 +20,9 @@ nodemon server.js
 ```
 
 Tarayıcınızda şu adrese gidin:
-
+```
 http://localhost:3000
+```
 
 Çalışan uygulamayı durdurmak için terminalde Ctrl + C tuşlarına basın ve işlemi sonlandırın.
 
